@@ -1,9 +1,9 @@
-title = "annnguyen.io"
 author = "Ann Nguyen"
 description = """
-Oh, hello!
-Welcome to my official blog.
+My official blog where I
+muse on tech, leadership and society.
 """
+customCss = ["css/custom.css"]
 profilePicture = "images/ann-square.jpg"
 contentratio = 0.7
 pygmentsCodeFences = true

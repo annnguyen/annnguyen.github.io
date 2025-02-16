@@ -1,0 +1,15 @@
+p { line-height: 1.6em; font-size: 1em; font-family: "Roboto",sans-serif !important;}
+.post-index { display: flex; align-items: flex-start;}
+.post-index .post__thumbnail-wrapper { flex-shrink: 0; margin: 20px 20px 20px 0; width: auto; box-shadow: 0;}
+.post-index .post__main { flex: 1; }
+.post-index .post__thumbnail { height: auto;}
+
+.single-post .post__thumbnail-wrapper {
+    box-shadow: none;
+}
+.single-post .post__thumbnail {
+    height: auto;
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
+}
