@@ -41,18 +41,18 @@
         animated fadeInDown
       {{ end }}"
     >
-      {{ if .Params.thumbnail }}
-        <div class="post__thumbnail-wrapper">
-            <a href="{{ .RelPermalink }}">
-                {{ with resources.Get .Params.thumbnail }}
-                    {{ with .Fill "120x120" }}
-                    <img class="post__thumbnail" src="{{ .RelPermalink }}" alt="Thumbnail image" loading="lazy" />
-                    {{ end }}
-                {{ end }}
-              </a> 
-        </div>
-      {{ end }}
       <div class="post__main">
+        {{ if .Params.thumbnail }}
+          <div class="post__thumbnail-wrapper">
+              <a href="{{ .RelPermalink }}">
+                  {{ with resources.Get .Params.thumbnail }}
+                      {{ with .Fill "120x120" }}
+                      <img class="post__thumbnail" src="{{ .RelPermalink }}" alt="Thumbnail image" loading="lazy" />
+                      {{ end }}
+                  {{ end }}
+                </a> 
+          </div>
+        {{ end }}
         <div class="post__content">
             {{ if (eq .Site.Params.disableTitleCapitalization true) }}
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -69,35 +69,34 @@
             <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
             {{- end -}}
         </div>
+      </div>
+      <!--  -->
+      <div class="post__footer">
+          <em class="fas fa-calendar-day"></em>
+          <span class="post__footer-date"
+          >{{ if isset .Site.Params "indexdateformat" }}
+              {{ if .Site.Params.localizedDates }}
+              {{ time.Format .Site.Params.indexDateFormat .Date }}
+              {{ else }}
+              {{ .Date.Format .Site.Params.indexDateFormat }}
+              {{ end }}
 
-        <!--  -->
-        <div class="post__footer">
-            <em class="fas fa-calendar-day"></em>
-            <span class="post__footer-date"
-            >{{ if isset .Site.Params "indexdateformat" }}
-                {{ if .Site.Params.localizedDates }}
-                {{ time.Format .Site.Params.indexDateFormat .Date }}
-                {{ else }}
-                {{ .Date.Format .Site.Params.indexDateFormat }}
-                {{ end }}
+          {{ else }}
+              {{ if .Site.Params.localizedDates }}
+              {{ time.Format "Mon, Jan 2, 2006" .Date }}
+              {{ else }}
+              {{ .Date.Format "Mon, Jan 2, 2006" }}
+              {{ end }}
 
-            {{ else }}
-                {{ if .Site.Params.localizedDates }}
-                {{ time.Format "Mon, Jan 2, 2006" .Date }}
-                {{ else }}
-                {{ .Date.Format "Mon, Jan 2, 2006" }}
-                {{ end }}
+          {{ end }}</span
+          >
+          {{ with .Page.Params.Categories }}
+          {{ partial "taxonomy/categories.html" . }}
+          {{ end }}
 
-            {{ end }}</span
-            >
-            {{ with .Page.Params.Categories }}
-            {{ partial "taxonomy/categories.html" . }}
-            {{ end }}
-
-            {{ with .Page.Params.Tags }}
-            {{ partial "taxonomy/tags.html" . }}
-            {{ end }}
-        </div>
+          {{ with .Page.Params.Tags }}
+          {{ partial "taxonomy/tags.html" . }}
+          {{ end }}
       </div>
     </div>
   {{ end }}
