@@ -1,0 +1,38 @@
+[module]
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
+
+[params]
+  title = "annnguyen.io"
+  author = "Ann Nguyen"
+  description = """
+  Oh, hello!
+  Welcome to my official blog.
+  """
+  profilePicture = "images/ann-square.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
