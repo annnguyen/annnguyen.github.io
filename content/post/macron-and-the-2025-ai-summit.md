@@ -13,13 +13,13 @@ It was exactly a week ago, I woke up to an absurd YouTube short of a series of M
 
 Lo and behold, it was Macron's cheeky response to the deepfakes that run rampant online, entertaining and shocking us netizens. But in true social media bait-and-switch form, he pulled our attention to the importance of AI and the revolutionary opportunities it can unlock to improve society. 
 
-![Hold my baguette!](/images/mistral-baguette.jpg)
-
 Shortly after that, it was a non-stop barrage of posts, interviews, panels and articles in French and international media. Not only did France host the AI Action Summit:
 
 - Macron announced [€109 billion][1] of private investment will be invested into France for AI innovation, the largest investment in AI to date.
 - UAE is injecting up to €50 billion into a 1GW AI datacenter in France. 
 - France, India and China along with 68 other countries signed a declaration for an open, inclusive and ethical artifical intelligenc without the United States and the UK.
+
+![Hold my baguette!](/images/mistral-baguette.jpg)
 
 France's open source AI darling Mistral AI as in tow with several major milestones as well:
 - Mistral released their OpenAI competitor [Le Chat][2] on [Android][3] and [iOS](https://apps.apple.com/us/app/le-chat-by-mistral-ai/id6740410176)
