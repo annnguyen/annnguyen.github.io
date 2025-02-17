@@ -7,9 +7,9 @@ Tags: []
 Categories: []
 DisableComments: false
 ---
-Hi, all! :wave: In this tiny span of time, I have had the fortune of experiencing this crazy thing called life. Like everyone else, there have been plenty of peaks and valleys in life, love and career, with battle wounds, some callused over and others freshly cut, to show for it. 
+Hi, all! :wave: In this tiny span of time, I have had the fortune of experiencing what has felt like several lifetimes of peaks and valleys in personal growth, love and career. I have battle wounds, some callused over and others freshly cut, to show for it. 
 
-I am at the part of my timeline where I am equally looking back on the life I have led and look forward to the life I want to lead and settle down to. 
+I now reach the part of my timeline where I am equally looking back on the life I have led and look forward to the life I want to lead and settle down to. 
 
 This blog will be an opportunity for me to share my thoughts on tech, society and any pieces of wisdom or cautionary tales that could possibly benefit anyone who happens upon this part of the internet. 
 
