@@ -1,7 +1,7 @@
 baseURL = "https://annnguyen.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Ann Nguyen"
+title = "annnguyen.io"
 
 theme = "github.com/lxndrblz/anatole"
 

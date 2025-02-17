@@ -13,3 +13,6 @@ p { line-height: 1.6em; font-size: 1em; font-family: "Roboto",sans-serif !import
     width: auto;
     margin: 0 auto;
 }
+
+.post {max-width: 800px;}
+.post__content img {max-height: 500px;}

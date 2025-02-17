@@ -17,4 +17,4 @@ To anyone who is here, welcome! Thanks for stopping by and thank you ahead of ti
 
 Bisous!
 
-##### *Photo: Self-portrait, Undated. Photographer: Vivian Maier.* Beyond her incredible background and unexpected posthumous discovery, she is one of the few photographers who can pull focus on parts of life and self that are unobserved, perhaps even unobservable.  
+##### *Photo: Self-portrait, Undated. Photographer: [Vivian Maier](https://www.vivianmaier.com/).* Beyond her incredible background and unexpected posthumous discovery, she is one of the few photographers who can pull focus on parts of life and self that are unobserved, perhaps even unobservable.  
